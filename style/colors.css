@@ -1,0 +1,34 @@
+:root {
+   
+  --primary-900: #01579b;
+  --primary-700: #0288d1;
+  --primary-100: #b3e5fc;
+
+  --secondary-100: #ffecb3;
+  --accent-500: #ffa807;
+
+  --text-color-on-clear-background: black;
+  --text-color-on-dark-background: white;
+  --card-background: white;
+  --little-info: grey;
+}
+
+/* unvisited link */
+a:link {
+  color: var(--primary-900);
+}
+
+/* visited link - I want to keep the unvisited link color */
+a:visited {
+  color: var(--primary-900);
+}
+
+/* mouse over link */
+a:hover {
+  color: red;
+}
+
+/* selected link */
+a:active {
+  color: var(--accent-500);
+}
